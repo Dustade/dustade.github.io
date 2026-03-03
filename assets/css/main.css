@@ -826,6 +826,9 @@ section,
 }
 
 .portfolio .portfolio-content img {
+  width: 100%;
+  aspect-ratio: 4 / 3; /* Görsellerin en/boy oranını sabitler. İstersen 16 / 9 da yapabilirsin */
+  object-fit: cover; /* Görselin bozulmadan (sünmeden) alanı doldurmasını sağlar */
   transition: 0.3s;
 }
 
